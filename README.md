@@ -2,20 +2,16 @@
 
 Angular base Scaffolding based on ***Angular Docs*** concepts about architecturing.
 
-***Hierarchical Structure:***
-src
+## Features
 
- ´´´***-> core***  
-    ->  [+] authentication    
-    ->  [+] footer    
-      ->  footer-component      
-    ->  [+] guards        
-    ->  [+] header    
-      ->  header-component      
-    ->  [+] interceptors    
-    ->  [+] services    
-    ->  constants.ts    
-    ->  core.module.ts´´´
+***✓ Lazy loading***
+
+***✓ Route guards***
+
+***✓ Interceptors***
+
+***✓ Flat structure***
+
 ## Technology Stack
 
 ***Angular Cli v7.2.4***
