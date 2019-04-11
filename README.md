@@ -1,0 +1,2 @@
+# AngularScaffold
+Basic angular scaffold.
