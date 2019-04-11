@@ -4,16 +4,27 @@ Angular base Scaffolding based on ***Angular Docs*** concepts about architecturi
 
 ***Hierarchical Structure:***
 src
+
   ***-> core***
+  
     ->  [+] authentication
+    
     ->  [+] footer
+    
       ->  footer-component
+      
     ->  [+] guards
+        
     ->  [+] header
+    
       ->  header-component
+      
     ->  [+] interceptors
+    
     ->  [+] services
+    
     ->  constants.ts
+    
     ->  core.module.ts
 
 ## Technology Stack
