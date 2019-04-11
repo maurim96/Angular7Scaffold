@@ -4,13 +4,13 @@ Angular base Scaffolding based on ***Angular Docs*** concepts about architecturi
 
 ## Features
 
+***✓ Flat structure***
+
 ***✓ Lazy loading***
 
 ***✓ Route guards***
 
 ***✓ Interceptors***
-
-***✓ Flat structure***
 
 ## Technology Stack
 
