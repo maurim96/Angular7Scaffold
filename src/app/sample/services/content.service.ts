@@ -1,4 +1,4 @@
-import { Constants } from './../constants';
+import { Constants } from '../../core/constants';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';

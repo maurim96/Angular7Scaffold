@@ -1,28 +1,17 @@
-import { Content } from 'src/app/models/content';
-import { ContentService } from '../../core/services/content.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { ContentStore, ContentActions } from "../store/content-store.service";
 
 @Component({
-  selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.sass']
+  selector: "app-content",
+  templateUrl: "./content.component.html",
+  styleUrls: ["./content.component.sass"]
 })
 export class ContentComponent implements OnInit {
+  constructor(private contentStore: ContentStore) {}
 
-  constructor(
-      private _contentService: ContentService
-  ) { }
+  ngOnInit() {}
 
-  content: Content[];
-
-  ngOnInit() {
-    this.fetchContent();
+  addContent() {
+    this.contentStore.actions.emit({ type: ContentActions.ADD, payload: "Added content" });
   }
-
-  fetchContent() {    
-    this._contentService.getAllContents().subscribe(res => {
-      this.content = res;
-    })  
-  }
-
 }
