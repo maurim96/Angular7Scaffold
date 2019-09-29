@@ -1,4 +1,4 @@
-export class Content {
-    id: number;
-    description: string;
+export interface Content {
+  id: number;
+  description: string;
 }
